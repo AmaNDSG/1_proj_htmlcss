@@ -1,0 +1,93 @@
+/*-------PRIMEIRA PARTE HOME------*/
+#home span{
+    color: rgb(214, 6, 214);
+}
+
+#home{
+    background-color: rgb(231, 228, 228);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #2e232c;
+    color: whitesmoke;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3 ease;
+}
+
+button:hover{
+    background-color:#554452;
+}
+/*-------PRIMEIRA PARTE HOME------*/
+
+/*-------SEÇÃO PRINCIPAIS LOCAIS-----*/
+.product{
+    cursor:pointer;
+    margin-bottom: 2-rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+    background: rgb(214, 6, 214);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: rgb(214, 6, 214);
+}
+
+/*-------SEÇÃO PRINCIPAIS LOCAIS--*/
+
+/*-------BANNER------*/
+#banner{
+    background-image: url("https://tiacris.tur.br/wp-content/uploads/2020/03/como-planejar-uma-viagem-para-a-disney-capa1.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: top 70px center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+#banner h4 {
+    color:rgb(231, 228, 228);
+}
+
+#banner h1 {
+    color: #fff;
+}
+/*-------BANNER------*/

@@ -1,0 +1,139 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Bon Voyage</title>
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <link rel="stylesheet" href="registro.css">
+
+    </head>
+
+            <!----form registro--->
+    <body>
+      <div class="container">
+        <a href="index.html" id="header"><span id="bon">Bon</span> Voyage</a>
+
+        <form action="#">
+          <div class="form first">
+            <div class="details personal">
+              <span class="title">Informações Pessoais</span>
+
+              <div class="fields">
+
+                <div class="input-field">
+                  <label>Nome Completo</label>
+                  <input type="text" placeholder="Fulano da Silva" required="">
+                </div>
+                <div class="input-field">
+                  <label>Data de Nascimento</label>
+                  <input type="date" placeholder="dd/mm/yyyy" required="">
+                </div>
+                <div class="input-field">
+                  <label>E-mail</label>
+                  <input type="email" placeholder="fulano@dominio.com" required="">
+                </div>
+
+             <!----------------------------------------->
+
+                <div class="input-field">
+                    <label>Telefone</label>
+                    <input type="text" placeholder="XX XXXX XXXX" maxlength="10" required="">
+                  </div>
+                  <div class="input-field">
+                    <label>Endereço</label>
+                    <input type="text" placeholder="Rua, nº, Bairro, Cidade, Estado, CEP" required="">
+                  </div>
+                  <div class="input-field">
+                    <label>CPF</label>
+                    <input type="text" placeholder="XXX.XXX.XXY-XX" maxlength="11" required="">
+                  </div>  
+             </div>
+            </div>
+
+            <!----------------------------------------->
+            <div class="details ID">
+            <span class="title">Agendar Viagem</span>
+
+            <div class="fields">
+
+              <div class="input-field">
+                <label>De onde vai sair?</label>
+                <input type="text" placeholder="Rua, nº, Bairro, Cidade, Estado, CEP" required="">
+              </div>
+              <div class="input-field">
+                <label>Para onde vai?</label>
+                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required="">
+                  <option selected>Escolha</option>
+                  <option value="0">Walt Disney Park</option>
+                  <option value="1">Seul</option>
+                  <option value="2">Tokyo</option>
+                  <option value="3">Nova York</option>
+                  <option value="4">Lisboa</option>
+                  <option value="1">Lençóis</option>
+                  <option value="2">Fernando de Noronha</option>
+                  <option value="3">Gramado/option>
+                  <option value="4">Alasca</option>
+                  <option value="1">Cairns</option>
+                  <option value="2">Florença</option>
+                  <option value="3">Roma</option>
+                  <option value="4">Barcelona</option>
+                  <option value="1">Rio de Janeiro</option>
+                  <option value="2">Maceió</option>
+                  <option value="3">Natal</option>
+                  <option value="4">São Paulo</option>
+                  <option value="1">Foz de Iguaçu</option>
+                  <option value="2">Fortaleza</option>
+                  <option value="3">Curitiba</option>
+                  <option value="4">Porto de Galinhas</option>
+                  <option value="1">Xangai</option>
+                  <option value="2">Shenzen</option>
+                  <option value="3">Guangzhou</option>
+                  <option value="4">Macau</option>
+                </select>
+              </div>
+                <div class="input-field">
+                  <label>Dia de Ida</label>
+                  <input type="date" placeholder="dd/mm/yyyy" required="">
+                </div>
+
+          <!----------------------------------------->
+
+
+                <div class="input-field">
+                  <label>Endereço da Hospedagem</label>
+                  <input type="text" placeholder="Nome do Hotel, Rua, nº, Bairro, Cidade, Estado, CEP" required="">
+               </div>
+                <div class="input-field">
+                    <label>Quantidade de Passageiros</label>
+                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" required="">
+                      <option selected>Escolha</option>
+                      <option value="p-1">1</option>
+                      <option value="p-2">2</option>
+                      <option value="p-3">3</option>
+                      <option value="p-4">4</option>
+                      <option value="p-5">5</option>
+                      <option value="p-6">6</option>
+                    </select>
+                </div>
+                <div class="input-field">
+                  <label>Dia de Volta</label>
+                  <input type="date" placeholder="dd/mm/yyyy" required="">
+                </div>
+            </div>
+
+            <button class="nextBtn">
+                <span class="btnText" onclick="alert ('Formulário Enviado com Sucesso!')"><a href="index.html"></a>Enviar</span>
+                <i class="uil uil-navigator"></i>
+            </button>
+
+            </div>
+        </div>
+        </form>
+      </div>
+              <!----form registro--->
+
+    </body>
+</html>

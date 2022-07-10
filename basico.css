@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------------*/
+
+/*-----NAVBAR-----*/
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #2e232c;
+}
+h6 {
+    color: #d8d8d8
+}
+/*-----NAVBAR-----*/
+
+/** NAVBAR ESTILO **/
+.navbar {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 0 20px;
+    color : black;
+    transition: 0.3 ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(214, 6, 214)
+}
+
+.navbar {
+    cursor:pointer;
+}
+
+.navbar-brand span{
+    color: rgb(214, 6, 214);
+}
+/** NAVBAR ESTILO **/
+
+/** NAVBAR RESPONSIVO ESTILO **/
+.navbar-light .navbar-toggler{
+    border: none;
+    outline:none;
+}
+
+@media only screen and (max-width: 991px) {
+    body>nav>div>button:hover,
+    body>nav>div>button:focus {
+        background-color: rgb(231, 228, 228);
+    }
+}
+/** NAVBAR RESPONSIVO ESTILO **/
+
+/** RODAPE **/
+footer {
+    background-color: rgb(231, 228, 228);
+}
+
+footer h5{
+    color:#2e232c;
+    font-weight:700;
+    font-size:1.2rem;
+}
+footer p{
+    color:#2e232c;
+    font-size: 0.8rem;
+}
+/** RODAPE **/
